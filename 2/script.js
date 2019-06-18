@@ -9,5 +9,6 @@ if ($(this).hasClass("red")) {
   else {
     $(this).addClass("red")
  }
+ $(this).html("HELLO");
 });
 });
