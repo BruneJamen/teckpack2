@@ -3,11 +3,11 @@ $(document ).ready(function(){
   alert("Bienvenue");
 
   $( "p" ).on( "click", function() {  
-if ($("p").hasClass("red")) {
-  $("p").removeClass()
+if ($(this).hasClass("red")) {
+  $(this).removeClass()
   }
   else {
-    $("p").addClass("red")
+    $(this).addClass("red")
  }
 });
 });
